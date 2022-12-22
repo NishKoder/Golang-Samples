@@ -1,0 +1,4 @@
+#1 go fmt ./... => Format all directory from current files
+#2 go build => generate executable file , can run with ./filename.exe
+#3 go install filename.go => generate executable file on GOBIN="Path"
+#4 go env -w ENVPATH="Value" => set env variable Value
