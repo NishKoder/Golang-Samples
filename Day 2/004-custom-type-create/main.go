@@ -14,7 +14,7 @@ func main() {
 	fmt.Printf("%T\n", x)
 	fmt.Println(y)
 	fmt.Printf("%T\n", y)
-	// You can not assign x value to y
+	// You can not assign x `value to y
 	// now y have diff TYPE 'main.koder'
 	// Go-lang is STATIC programming language
 	// here we are convert x into y TYPE not casting
