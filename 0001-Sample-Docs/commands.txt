@@ -11,6 +11,9 @@ go get changes the required version of a dependency (or adds a new dependency).
 go mod tidy removes unused dependencies.
 ####################
 
+curl localhost:9003
+curl -X POST localhost:9003
+curl -X DELETE localhost:9003
 
 go mod edit -replace example.com/backend=../backend
 go mod tidy
